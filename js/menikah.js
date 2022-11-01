@@ -39,7 +39,7 @@ $(document).ready(function($) {
   $("body").removeClass("preloader-site");
 });
 
-$(document).load(function() {
+window.onload = (event) => {
   var Body = $("body");
   Body.addClass("preloader-site");
-});
+};
